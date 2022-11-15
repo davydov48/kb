@@ -1,0 +1,95 @@
+.keyboard {
+  background: grey;
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-top: 10px;
+  display: flex;
+padding: 20px;
+ 
+}
+
+.num {
+  display: grid;
+  grid-template-areas: 
+  'a b c'
+  'd e f'
+  'h j g'
+  'p o r';
+  
+}
+
+.numKey {
+  background: rgb(179, 179, 179);
+  margin-left: 10px;
+  display: flex;
+  border: 1 px solid black;
+  border-radius: 10px;
+  width: 50px;
+  height: 30px;
+  
+  
+}
+.operation{
+  display: grid;
+  grid-template-areas: 
+  'a'
+  'd'
+  'h'
+  'o';
+}
+
+.cancel{
+  background: red;
+  margin-left: 10px;
+  display: flex;
+  border: 1 px solid black;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  text-transform: uppercase;
+  
+}
+
+.clear {
+  background: yellow;
+  margin-left: 10px;
+  display: flex;
+  border: 1 px solid black;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  text-transform: uppercase;
+}
+
+.enter {
+  background: green;
+  margin-left: 10px;
+  display: flex;
+  border: 1 px solid black;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  text-transform: uppercase;
+}
+
+.hide {
+  background: rgb(180, 180, 180);
+  margin-left: 10px;
+  display: flex;
+  border: 1 px solid black;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  text-transform: uppercase;
+}
+.output{
+  width: 200px;
+  height: 20px;
+  border: 1px solid black;
+}
+
+#p{
+  grid-area: p;
+}
